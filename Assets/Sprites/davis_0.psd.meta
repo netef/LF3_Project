@@ -1,64 +1,64 @@
 fileFormatVersion: 2
-guid: fb24c1f37c2b5064fbd0f3d55f0ffbbb
+guid: e4187bfe2b0765144912bfa72a893776
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: -3113500145069180039
-    second: david_idle_0
+    second: davis_idle_0
   - first:
       213: -4816430905693750414
-    second: david_idle_1
+    second: davis_idle_1
   - first:
       213: 8302801254905242993
-    second: david_idle_2
+    second: davis_idle_2
   - first:
       213: -4796607591788761926
-    second: david_idle_3
+    second: davis_idle_3
   - first:
       213: -5033667563590628706
-    second: davis_0_4
+    second: davis_walk_0
   - first:
       213: 5620543572990943433
-    second: davis_0_5
+    second: davis_walk_1
   - first:
       213: -8170789799649427312
-    second: davis_0_6
+    second: davis_walk_2
   - first:
       213: -1236832483871533402
-    second: davis_0_7
+    second: davis_walk_3
   - first:
       213: -6934604062616290364
-    second: davis_0_8
+    second: davis_fist3_0
   - first:
       213: 38688853946854887
-    second: davis_0_9
+    second: davis_fist3_1
   - first:
       213: -6522281004899448667
-    second: davis_0_10
+    second: davis_fist_0
   - first:
       213: -375016049827158649
-    second: davis_0_11
+    second: davis_fist1_1
   - first:
       213: -505663784079893384
-    second: davis_0_12
+    second: davis_fist1_2
   - first:
       213: -5081298121478321708
-    second: davis_0_13
+    second: davis_fist1_3
   - first:
       213: -688538021604562154
     second: davis_0_14
   - first:
       213: -8320070708523633310
-    second: davis_0_15
+    second: davis_fist2_1
   - first:
       213: 3630175950153178899
-    second: davis_0_16
+    second: davis_fist2_2
   - first:
       213: -7553830560972795198
-    second: davis_0_17
+    second: davis_fist2_3
   - first:
       213: 477273483493712529
-    second: davis_0_18
+    second: davis_fist3_2
   - first:
       213: 5165065480663124168
     second: davis_0_19
@@ -88,7 +88,7 @@ TextureImporter:
     second: davis_0_27
   - first:
       213: 1998713036754192678
-    second: davis_0_28
+    second: davis_fist3_3
   - first:
       213: 6809389106256805836
     second: davis_0_29
@@ -118,7 +118,7 @@ TextureImporter:
     second: davis_0_37
   - first:
       213: 6759441175621913387
-    second: davis_0_38
+    second: davis_fist3_4
   - first:
       213: 4344401790593042355
     second: davis_0_39
@@ -148,7 +148,7 @@ TextureImporter:
     second: davis_0_47
   - first:
       213: 8569642817308329020
-    second: davis_0_48
+    second: davis_fist3_5
   - first:
       213: -6045164984042537833
     second: davis_0_49
@@ -209,87 +209,6 @@ TextureImporter:
   - first:
       213: -5524171261909214493
     second: davis_0_68
-  - first:
-      213: 1303003486475344492
-    second: davis_0_69
-  - first:
-      213: 137796640892550317
-    second: davis_0_70
-  - first:
-      213: 8810496093909957328
-    second: davis_0_71
-  - first:
-      213: 2500785266685453145
-    second: davis_0_72
-  - first:
-      213: -4483634107011480029
-    second: davis_0_73
-  - first:
-      213: 8736714405202572243
-    second: davis_0_74
-  - first:
-      213: -5382965949653097108
-    second: davis_0_75
-  - first:
-      213: 8510402369159843111
-    second: davis_0_76
-  - first:
-      213: -599516772434362964
-    second: davis_0_77
-  - first:
-      213: -3026143248215653348
-    second: davis_0_78
-  - first:
-      213: 2935134729815458173
-    second: davis_0_79
-  - first:
-      213: -1459877003231567111
-    second: davis_0_80
-  - first:
-      213: 1421480902296145623
-    second: davis_0_81
-  - first:
-      213: 4131774668810857797
-    second: davis_0_82
-  - first:
-      213: -3528676084045084881
-    second: davis_0_83
-  - first:
-      213: 2001837174088859636
-    second: davis_0_84
-  - first:
-      213: -3346791437311474016
-    second: davis_0_85
-  - first:
-      213: -3465330626035459882
-    second: davis_0_86
-  - first:
-      213: -5998178974090000247
-    second: davis_0_87
-  - first:
-      213: -5804920053100414845
-    second: davis_0_88
-  - first:
-      213: -4398859850698972746
-    second: davis_0_89
-  - first:
-      213: -5984478733871386333
-    second: davis_0_90
-  - first:
-      213: 5485212932300589913
-    second: davis_0_91
-  - first:
-      213: -8692750482144613418
-    second: davis_0_92
-  - first:
-      213: -3904937714245690405
-    second: davis_0_93
-  - first:
-      213: 6975962162327279989
-    second: davis_0_94
-  - first:
-      213: 4506165627355257856
-    second: davis_0_95
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -333,9 +252,9 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -374,7 +293,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: david_idle_0
+      name: davis_idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -382,7 +301,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -395,7 +314,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: david_idle_1
+      name: davis_idle_1
       rect:
         serializedVersion: 2
         x: 80
@@ -403,7 +322,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -416,7 +335,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: david_idle_2
+      name: davis_idle_2
       rect:
         serializedVersion: 2
         x: 160
@@ -424,7 +343,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -437,7 +356,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: david_idle_3
+      name: davis_idle_3
       rect:
         serializedVersion: 2
         x: 240
@@ -445,7 +364,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -458,7 +377,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_4
+      name: davis_walk_0
       rect:
         serializedVersion: 2
         x: 320
@@ -466,7 +385,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -479,7 +398,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_5
+      name: davis_walk_1
       rect:
         serializedVersion: 2
         x: 400
@@ -487,7 +406,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -500,7 +419,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_6
+      name: davis_walk_2
       rect:
         serializedVersion: 2
         x: 480
@@ -508,7 +427,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -521,7 +440,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_7
+      name: davis_walk_3
       rect:
         serializedVersion: 2
         x: 560
@@ -529,7 +448,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -542,7 +461,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_8
+      name: davis_fist3_0
       rect:
         serializedVersion: 2
         x: 640
@@ -550,7 +469,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -563,7 +482,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_9
+      name: davis_fist3_1
       rect:
         serializedVersion: 2
         x: 720
@@ -571,7 +490,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -584,7 +503,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_10
+      name: davis_fist_0
       rect:
         serializedVersion: 2
         x: 0
@@ -592,7 +511,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -605,7 +524,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_11
+      name: davis_fist1_1
       rect:
         serializedVersion: 2
         x: 80
@@ -613,7 +532,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -626,7 +545,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_12
+      name: davis_fist1_2
       rect:
         serializedVersion: 2
         x: 160
@@ -634,7 +553,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -647,7 +566,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_13
+      name: davis_fist1_3
       rect:
         serializedVersion: 2
         x: 240
@@ -655,7 +574,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -676,7 +595,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -689,7 +608,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_15
+      name: davis_fist2_1
       rect:
         serializedVersion: 2
         x: 400
@@ -697,7 +616,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -710,7 +629,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_16
+      name: davis_fist2_2
       rect:
         serializedVersion: 2
         x: 480
@@ -718,7 +637,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -731,7 +650,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_17
+      name: davis_fist2_3
       rect:
         serializedVersion: 2
         x: 560
@@ -739,7 +658,7 @@ TextureImporter:
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -752,15 +671,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_18
+      name: davis_fist3_2
       rect:
         serializedVersion: 2
-        x: 640
+        x: 720
         y: 400
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -776,12 +695,12 @@ TextureImporter:
       name: davis_0_19
       rect:
         serializedVersion: 2
-        x: 720
-        y: 400
+        x: 0
+        y: 320
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -797,12 +716,12 @@ TextureImporter:
       name: davis_0_20
       rect:
         serializedVersion: 2
-        x: 0
+        x: 80
         y: 320
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -818,12 +737,12 @@ TextureImporter:
       name: davis_0_21
       rect:
         serializedVersion: 2
-        x: 80
+        x: 160
         y: 320
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -839,12 +758,12 @@ TextureImporter:
       name: davis_0_22
       rect:
         serializedVersion: 2
-        x: 160
+        x: 240
         y: 320
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -860,12 +779,12 @@ TextureImporter:
       name: davis_0_23
       rect:
         serializedVersion: 2
-        x: 240
+        x: 320
         y: 320
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -881,12 +800,12 @@ TextureImporter:
       name: davis_0_24
       rect:
         serializedVersion: 2
-        x: 320
+        x: 400
         y: 320
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -902,12 +821,12 @@ TextureImporter:
       name: davis_0_25
       rect:
         serializedVersion: 2
-        x: 400
+        x: 480
         y: 320
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -923,12 +842,12 @@ TextureImporter:
       name: davis_0_26
       rect:
         serializedVersion: 2
-        x: 480
+        x: 560
         y: 320
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -944,12 +863,12 @@ TextureImporter:
       name: davis_0_27
       rect:
         serializedVersion: 2
-        x: 560
+        x: 640
         y: 320
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -962,15 +881,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_28
+      name: davis_fist3_3
       rect:
         serializedVersion: 2
-        x: 640
+        x: 720
         y: 320
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -986,12 +905,12 @@ TextureImporter:
       name: davis_0_29
       rect:
         serializedVersion: 2
-        x: 720
-        y: 320
+        x: 0
+        y: 240
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1007,12 +926,12 @@ TextureImporter:
       name: davis_0_30
       rect:
         serializedVersion: 2
-        x: 0
+        x: 80
         y: 240
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1028,12 +947,12 @@ TextureImporter:
       name: davis_0_31
       rect:
         serializedVersion: 2
-        x: 80
+        x: 160
         y: 240
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1049,12 +968,12 @@ TextureImporter:
       name: davis_0_32
       rect:
         serializedVersion: 2
-        x: 160
+        x: 240
         y: 240
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1070,12 +989,12 @@ TextureImporter:
       name: davis_0_33
       rect:
         serializedVersion: 2
-        x: 240
+        x: 320
         y: 240
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1091,12 +1010,12 @@ TextureImporter:
       name: davis_0_34
       rect:
         serializedVersion: 2
-        x: 320
+        x: 400
         y: 240
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1112,12 +1031,12 @@ TextureImporter:
       name: davis_0_35
       rect:
         serializedVersion: 2
-        x: 400
+        x: 480
         y: 240
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1133,12 +1052,12 @@ TextureImporter:
       name: davis_0_36
       rect:
         serializedVersion: 2
-        x: 480
+        x: 560
         y: 240
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1154,12 +1073,12 @@ TextureImporter:
       name: davis_0_37
       rect:
         serializedVersion: 2
-        x: 560
+        x: 640
         y: 240
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1172,15 +1091,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_38
+      name: davis_fist3_4
       rect:
         serializedVersion: 2
-        x: 640
+        x: 720
         y: 240
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1196,12 +1115,12 @@ TextureImporter:
       name: davis_0_39
       rect:
         serializedVersion: 2
-        x: 720
-        y: 240
+        x: 0
+        y: 160
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1217,12 +1136,12 @@ TextureImporter:
       name: davis_0_40
       rect:
         serializedVersion: 2
-        x: 0
+        x: 80
         y: 160
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1238,12 +1157,12 @@ TextureImporter:
       name: davis_0_41
       rect:
         serializedVersion: 2
-        x: 80
+        x: 160
         y: 160
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1259,12 +1178,12 @@ TextureImporter:
       name: davis_0_42
       rect:
         serializedVersion: 2
-        x: 160
+        x: 240
         y: 160
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1280,12 +1199,12 @@ TextureImporter:
       name: davis_0_43
       rect:
         serializedVersion: 2
-        x: 240
+        x: 320
         y: 160
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1301,12 +1220,12 @@ TextureImporter:
       name: davis_0_44
       rect:
         serializedVersion: 2
-        x: 320
+        x: 400
         y: 160
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1322,12 +1241,12 @@ TextureImporter:
       name: davis_0_45
       rect:
         serializedVersion: 2
-        x: 400
+        x: 480
         y: 160
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1343,12 +1262,12 @@ TextureImporter:
       name: davis_0_46
       rect:
         serializedVersion: 2
-        x: 480
+        x: 560
         y: 160
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1364,12 +1283,12 @@ TextureImporter:
       name: davis_0_47
       rect:
         serializedVersion: 2
-        x: 560
+        x: 640
         y: 160
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1382,15 +1301,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_48
+      name: davis_fist3_5
       rect:
         serializedVersion: 2
-        x: 640
+        x: 720
         y: 160
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1406,12 +1325,12 @@ TextureImporter:
       name: davis_0_49
       rect:
         serializedVersion: 2
-        x: 720
-        y: 160
+        x: 0
+        y: 80
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1427,12 +1346,12 @@ TextureImporter:
       name: davis_0_50
       rect:
         serializedVersion: 2
-        x: 0
+        x: 80
         y: 80
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1448,12 +1367,12 @@ TextureImporter:
       name: davis_0_51
       rect:
         serializedVersion: 2
-        x: 80
+        x: 160
         y: 80
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1469,12 +1388,12 @@ TextureImporter:
       name: davis_0_52
       rect:
         serializedVersion: 2
-        x: 160
+        x: 240
         y: 80
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1490,12 +1409,12 @@ TextureImporter:
       name: davis_0_53
       rect:
         serializedVersion: 2
-        x: 240
+        x: 320
         y: 80
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1511,12 +1430,12 @@ TextureImporter:
       name: davis_0_54
       rect:
         serializedVersion: 2
-        x: 320
+        x: 400
         y: 80
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1532,12 +1451,12 @@ TextureImporter:
       name: davis_0_55
       rect:
         serializedVersion: 2
-        x: 400
+        x: 480
         y: 80
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1553,12 +1472,12 @@ TextureImporter:
       name: davis_0_56
       rect:
         serializedVersion: 2
-        x: 480
+        x: 560
         y: 80
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1574,12 +1493,12 @@ TextureImporter:
       name: davis_0_57
       rect:
         serializedVersion: 2
-        x: 560
+        x: 640
         y: 80
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1595,12 +1514,12 @@ TextureImporter:
       name: davis_0_58
       rect:
         serializedVersion: 2
-        x: 640
+        x: 720
         y: 80
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1616,12 +1535,12 @@ TextureImporter:
       name: davis_0_59
       rect:
         serializedVersion: 2
-        x: 720
-        y: 80
+        x: 0
+        y: 0
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1637,12 +1556,12 @@ TextureImporter:
       name: davis_0_60
       rect:
         serializedVersion: 2
-        x: 0
+        x: 80
         y: 0
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1658,12 +1577,12 @@ TextureImporter:
       name: davis_0_61
       rect:
         serializedVersion: 2
-        x: 80
+        x: 160
         y: 0
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1679,12 +1598,12 @@ TextureImporter:
       name: davis_0_62
       rect:
         serializedVersion: 2
-        x: 160
+        x: 240
         y: 0
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1700,12 +1619,12 @@ TextureImporter:
       name: davis_0_63
       rect:
         serializedVersion: 2
-        x: 240
+        x: 320
         y: 0
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1721,12 +1640,12 @@ TextureImporter:
       name: davis_0_64
       rect:
         serializedVersion: 2
-        x: 320
+        x: 400
         y: 0
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1742,12 +1661,12 @@ TextureImporter:
       name: davis_0_65
       rect:
         serializedVersion: 2
-        x: 400
+        x: 480
         y: 0
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1763,12 +1682,12 @@ TextureImporter:
       name: davis_0_66
       rect:
         serializedVersion: 2
-        x: 480
+        x: 560
         y: 0
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1784,12 +1703,12 @@ TextureImporter:
       name: davis_0_67
       rect:
         serializedVersion: 2
-        x: 560
+        x: 640
         y: 0
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1805,12 +1724,12 @@ TextureImporter:
       name: davis_0_68
       rect:
         serializedVersion: 2
-        x: 640
+        x: 720
         y: 0
         width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1818,27 +1737,6 @@ TextureImporter:
       bones: []
       spriteID: 3eada7f61833653b0800000000000000
       internalID: -5524171261909214493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: davis_0_69
-      rect:
-        serializedVersion: 2
-        x: 720
-        y: 0
-        width: 80
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6a557074c2351210800000000000000
-      internalID: 1303003486475344492
       vertices: []
       indices: 
       edges: []
@@ -1855,7 +1753,7 @@ TextureImporter:
     secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
+  pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 
