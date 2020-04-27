@@ -9,7 +9,7 @@ public class MovementScript : MonoBehaviour
     Animator animator;
     int numOfClicks = 0;
     float lastClick = 0;
-    const float MAX_COMBO_DELAY = 0.9f;
+    const float MAX_COMBO_DELAY = 0.5f;
     Vector3 playerScale;
     float inputX = 0;
     float inputY = 0;
@@ -77,6 +77,7 @@ public class MovementScript : MonoBehaviour
         else
         {
             animator.SetBool("punch2", false);
+            animator.SetBool("punch1", false);
             numOfClicks = 0;
         }
     }
