@@ -3,5 +3,5 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public interface IMovementScript {
-    void movement();
+    void SetMovement(int state);
 }

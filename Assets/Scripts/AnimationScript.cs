@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,7 +12,7 @@ public class AnimationScript : MonoBehaviour, IAnimationScript
     private const float MAX_COMBO_DELAY = 0.5f;
     void Start()
     {
-        animator = GetComponent<Animator>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     public void Attack()
@@ -62,5 +63,12 @@ public class AnimationScript : MonoBehaviour, IAnimationScript
         playerScale = transform.localScale;
         playerScale.x = velocityVector.x != 0 ? velocityVector.x : playerScale.x;
         transform.localScale = playerScale;
+
+    }
+
+    public void Jump(Func<object> func)
+    {
+        animator.SetTrigger("jump");
+        func();
     }
 }

@@ -181,13 +181,13 @@ TextureImporter:
     second: davis_0_58
   - first:
       213: 6691669991638955372
-    second: davis_0_59
+    second: davis_jump_0
   - first:
       213: -8414051982601911484
-    second: davis_0_60
+    second: davis_jump_1
   - first:
       213: 9136544590499863926
-    second: davis_0_61
+    second: davis_jump_2
   - first:
       213: -3665925285696138615
     second: davis_0_62
@@ -1532,7 +1532,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_59
+      name: davis_jump_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1553,7 +1553,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_60
+      name: davis_jump_1
       rect:
         serializedVersion: 2
         x: 80
@@ -1574,7 +1574,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: davis_0_61
+      name: davis_jump_2
       rect:
         serializedVersion: 2
         x: 160

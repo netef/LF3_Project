@@ -10,7 +10,7 @@ public class MoveVelocityScript : MonoBehaviour, IMoveVelocityScript
 
     void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponentInChildren<Rigidbody2D>();
     }
 
     public void SetVelocity(Vector3 velocityVector)
