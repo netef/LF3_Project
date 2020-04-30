@@ -12,7 +12,10 @@ GameObject:
   - component: {fileID: 3213446135506179040}
   - component: {fileID: 3213446135506179041}
   - component: {fileID: 3213446135506179069}
-  - component: {fileID: 3213446135506179042}
+  - component: {fileID: 4821675772339992641}
+  - component: {fileID: 665939297704139641}
+  - component: {fileID: 5775013695378985854}
+  - component: {fileID: 4083352849588140644}
   - component: {fileID: 3213446135506179046}
   m_Layer: 0
   m_Name: Davis
@@ -128,7 +131,31 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &3213446135506179042
+--- !u!114 &4821675772339992641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3213446135506179047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc5c12da1ee25d48b1e4cf5479fba06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &665939297704139641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3213446135506179047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c03fa3b9e10c948aa7a5c10ce2c7f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5775013695378985854
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,6 +165,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea4c071a5229f7f488b9b02a9a16c0b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4083352849588140644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3213446135506179047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3d369ff8c5e4d046b9d21e2f0a20623, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!70 &3213446135506179046
