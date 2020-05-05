@@ -12,7 +12,7 @@ public class AnimationScript : MonoBehaviour, IAnimationScript
     private const float MAX_COMBO_DELAY = 0.5f;
     void Start()
     {
-        animator = GetComponentInChildren<Animator>();
+        animator = GetComponent<Animator>();
     }
 
     public void Attack()

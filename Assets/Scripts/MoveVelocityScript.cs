@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class MoveVelocityScript : MonoBehaviour, IMoveVelocityScript
 {
-    private const float MOVEMENT_SPEED = 200f;
+    private const float MOVEMENT_SPEED = 4f;
     private Vector3 velocityVector;
-    private Rigidbody2D rb;
+    private CharacterController cc;
+    private float gravity = 0.25f;
 
     void Awake()
     {
-        rb = GetComponentInChildren<Rigidbody2D>();
+        cc = GetComponent<CharacterController>();
     }
 
     public void SetVelocity(Vector3 velocityVector)
@@ -20,7 +21,9 @@ public class MoveVelocityScript : MonoBehaviour, IMoveVelocityScript
 
     void FixedUpdate()
     {
-        rb.velocity = velocityVector * MOVEMENT_SPEED * Time.fixedDeltaTime;
+        if (velocityVector.y != 0)
+            velocityVector.y -= gravity;
+        cc.Move(velocityVector * MOVEMENT_SPEED * Time.fixedDeltaTime);
         GetComponent<IAnimationScript>().Move(velocityVector);
     }
 }

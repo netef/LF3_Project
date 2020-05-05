@@ -17,6 +17,7 @@ public class MovementScript : MonoBehaviour, IMovementScript
     private float inputX = 0;
     private float inputY = 0;
     private Vector3 moveVector;
+    private float jumpForce = 5f;
 
     private void Awake()
     {
@@ -30,10 +31,11 @@ public class MovementScript : MonoBehaviour, IMovementScript
             case State.Normal:
                 inputX = Input.GetAxisRaw("Horizontal");
                 inputY = Input.GetAxisRaw("Vertical");
-                GetComponent<IMoveVelocityScript>().SetVelocity(new Vector3(inputX, inputY));
+                GetComponent<IMoveVelocityScript>().SetVelocity(new Vector3(inputX, 0, inputY));
                 if (Input.GetKeyDown(KeyCode.Keypad0))
                 {
                     GetComponent<IAnimationScript>().Jump(() => state = State.Normal);
+                    GetComponent<IMoveVelocityScript>().SetVelocity(new Vector3(inputX, 0, inputY));
                     state = State.Jump;
                 }
 
