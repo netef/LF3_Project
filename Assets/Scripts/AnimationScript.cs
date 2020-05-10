@@ -10,10 +10,10 @@ public class AnimationScript : MonoBehaviour, IAnimationScript
     private int numOfClicks = 0;
     private float lastClick = 0;
     private const float MAX_COMBO_DELAY = 0.5f;
-    void Start()
-    {
-        animator = GetComponent<Animator>();
-    }
+    private float jumpForce = 8f;
+    private Vector3 velocityVector;
+
+    void Start() => animator = GetComponent<Animator>();
 
     public void Attack()
     {
@@ -59,16 +59,14 @@ public class AnimationScript : MonoBehaviour, IAnimationScript
 
     public void Move(Vector3 velocityVector)
     {
+        this.velocityVector = velocityVector;
         animator.SetFloat("velocity", velocityVector.magnitude);
         playerScale = transform.localScale;
         playerScale.x = velocityVector.x != 0 ? velocityVector.x : playerScale.x;
         transform.localScale = playerScale;
-
     }
 
-    public void Jump(Func<object> func)
-    {
-        animator.SetTrigger("jump");
-        func();
-    }
+    public void Jump() => animator.SetTrigger("jump");
+    public void RealyJump() => GetComponent<IMoveVelocityScript>().SetVelocity(new Vector3(velocityVector.x, jumpForce, velocityVector.z));
+    public void IsGrounded(bool grounded) => animator.SetBool("isGrounded", grounded);
 }

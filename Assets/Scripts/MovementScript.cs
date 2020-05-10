@@ -17,7 +17,7 @@ public class MovementScript : MonoBehaviour, IMovementScript
     private float inputX = 0;
     private float inputY = 0;
     private Vector3 moveVector;
-    private float jumpForce = 5f;
+    public LayerMask floorLayerMask;
 
     private void Awake()
     {
@@ -26,6 +26,8 @@ public class MovementScript : MonoBehaviour, IMovementScript
 
     void Update()
     {
+        GetComponent<IAnimationScript>().IsGrounded(IsGrounded());
+        Debug.Log("iiiiiiiii");
         switch (state)
         {
             case State.Normal:
@@ -34,9 +36,8 @@ public class MovementScript : MonoBehaviour, IMovementScript
                 GetComponent<IMoveVelocityScript>().SetVelocity(new Vector3(inputX, 0, inputY));
                 if (Input.GetKeyDown(KeyCode.Keypad0))
                 {
-                    GetComponent<IAnimationScript>().Jump(() => state = State.Normal);
-                    GetComponent<IMoveVelocityScript>().SetVelocity(new Vector3(inputX, 0, inputY));
                     state = State.Jump;
+                    GetComponent<IAnimationScript>().Jump();
                 }
 
                 break;
@@ -45,8 +46,6 @@ public class MovementScript : MonoBehaviour, IMovementScript
             case State.Jump:
                 break;
         }
-
-
     }
 
     public void SetMovement(int stateNum)
@@ -54,6 +53,7 @@ public class MovementScript : MonoBehaviour, IMovementScript
         switch (stateNum)
         {
             case 0:
+                GetComponent<IMoveVelocityScript>().SetVelocity(new Vector3(0, 0, 0));
                 state = State.Normal;
                 break;
             case 1:
@@ -64,4 +64,6 @@ public class MovementScript : MonoBehaviour, IMovementScript
                 break;
         }
     }
+
+    private bool IsGrounded() => Physics.Raycast(GetComponent<CharacterController>().bounds.center, Vector3.down, GetComponent<CharacterController>().bounds.extents.y + 0.2f, floorLayerMask);
 }

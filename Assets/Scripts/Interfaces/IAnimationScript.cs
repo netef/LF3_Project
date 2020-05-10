@@ -7,5 +7,6 @@ public interface IAnimationScript
 {
     void Attack();
     void Move(Vector3 velocityVector);
-    void Jump(Func<object> func);
+    void Jump();
+    void IsGrounded(bool grounded);
 }
